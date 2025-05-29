@@ -107,3 +107,15 @@ variable "env_file_name" {
   description = "env file name"
   type        = string
 }
+
+# ecs architecture variables
+variable "architecture" {
+  description = "ecs cpu architecture"
+  type        = string
+}
+
+# container image variables
+variable "container_image" {
+  description = "container image uri"
+  type        = string
+}
